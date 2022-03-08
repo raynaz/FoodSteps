@@ -30,6 +30,9 @@ main {
     grid-row: 2/3;
     background-image: url("back.jpeg");
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 footer {
@@ -119,10 +122,8 @@ footer {
 
 /*main*/
 .weg {
-    width: 35vw;
+    width: 70vh;
     height: 50vh;
-    margin-left: 35vw;
-    margin-top: 7.5vh;
     background-color: rgba(255, 255, 255, 0.80);
     padding-top: 15vh;
     border-radius: 20px;
@@ -134,7 +135,7 @@ footer {
 }
 
 .weg input {
-    width: 25vw;
+    width: 50vh;
     height: 7vh;
     margin: 5vh 0;
     border: 2px solid white;
@@ -145,7 +146,7 @@ footer {
 }
 
 button {
-    width: 25vw;
+    width: 50vh;
     height: 7vh;
 
     background-color: white;
